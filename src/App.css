@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(26, 27, 34);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+.App {
+  margin: 10px;
+  width: 80%;
+  min-height: 900px;
+  max-width: 350px;
+  aspect-ratio: 4/5;
+  background-color: rgb(21, 21, 26);
+  border-radius: 15px;
+}
+.info {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.personal-pic {
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+}
+.titles {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+h1 {
+  font-size: 1.7rem;
+  margin: 5px;
+}
+h3 {
+  font-size: 0.8rem;
+}
+.buttons {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button-logo {
+  width: 25px;
+}
+.button1 {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.button2 {
+  color: white;
+  background-color: rgb(116, 190, 214);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
