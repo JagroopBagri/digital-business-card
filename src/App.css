@@ -80,7 +80,7 @@ h3 {
   width: 25px;
 }
 .button1 {
-  color: black;
+  color: rgb(21, 21, 26);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -89,6 +89,8 @@ h3 {
   border-radius: 10px;
   font-weight: bold;
   font-size: 1.1rem;
+  border-style: solid;
+  border-color: rgb(21, 21, 26);
 }
 .button2 {
   color: white;
@@ -101,6 +103,8 @@ h3 {
   border-radius: 10px;
   font-weight: bold;
   font-size: 1.1rem;
+  border-style: solid;
+  border-color: rgb(21, 21, 26);
 }
 
 .about,
